@@ -1,0 +1,352 @@
+AKA.MS/SCFUNPATH
+
+Concepts of security and compliance
+
+Zero trust methodology
+identities,devices,applications,networks,infrastructure,data
+
+Defense in depth
+Physical,Identity and access,Perimeter,Network,Compute,Application,Data
+
+Shared Responsibility
+Saas,Paas,Iaas,on-prem
+
+CIA
+Confidentiality,Integrity,Availability
+
+Common threats
+Data Breach,Dictionary aatack,Ransomware,Disruptive attacks
+
+Data breach- phishing,spear phishing
+dictionary attack -identity attack
+Ransomware- malware that encrypts files and folders
+Disruptive attack -DDos
+
+coin miners,trojans,worms
+
+Encryption
+Symmetric,Asymmetric
+
+at rest,in transit
+
+Hashing
+Salted password-random value in front of hash value
+
+Cloud adoption framework
+
+Identity Concepts
+
+device also has identity
+Common identity attacks
+Password based attacks
+Phishing
+Spear phishing
+
+
+
+Identity as primary security perimeter
+administration,authentication,authorization,auditing
+
+
+
+modern authentication
+identity provider
+tokens and claims
+single sign on
+
+
+
+Federated services
+
+
+
+active directory
+
+
+
+aka.ms/advsaad
+
+
+
+Module 2
+
+
+
+CAPABILITIES OF MICROSOFT IDENTITY AND ACCESS
+
+
+
+Explore services and identity types in AAD
+
+
+
+AAD
+
+
+
+ad identity types
+user,service principal,managed identity,device
+
+
+
+External identities in Azure ad
+B2B collaboration,B2C access management
+
+
+
+Hybrid identities
+Hybrid identity model
+
+
+
+
+Authenticatiom capabilities
+
+
+
+Authentication methods
+MFA and security defaults
+
+
+
+MFA
+Password
+phone,authenticator,oath
+Passwordless
+biometrics
+
+
+
+Windows hello for business
+
+
+
+sspr in azure ad
+
+
+
+Pass protection and management capabilities
+
+
+
+Access management
+
+
+
+Conditional access
+
+
+
+RBAC
+
+
+
+IDENTITY PROTECTION AND GOVERNANCE CAPABILITIES
+Identity governance
+identity lifecycle-join,move,leave
+dynamic groups
+
+
+
+entitlement management
+access reviews
+
+
+
+Privileged identity management
+jit,timebound,approval based,visible,auditable
+
+
+
+Azure identity protection
+
+
+
+module 3
+
+
+
+Basic security capabilities
+Azure nsg
+lower number,higher priority
+
+
+
+docs.microsoft.com
+
+
+
+Azure ddos protection
+Azure firewall
+Azure bastion
+Web application firewall
+
+
+
+Encryption on azure and Azure key vault
+Azure resource manager locks
+resource,resource group
+
+
+
+Azure policy
+policy is also a resource
+
+
+
+Azure blueprints
+
+
+
+SECURITY MANAGEMENT CAPABILITIES IN AZURE
+
+
+
+CSPM
+Azure security center-continuous assessment,protect against threats,network map,get secure faster
+Azure secure score
+Azure defender
+
+
+
+Security baselines and azure security benchmark
+
+
+
+Security capabilities of azure sentinel
+SIEM,SOAR,XDR
+
+
+
+Collect,detect,investigate,respond
+
+
+
+
+Describe threat protection with microsoft365 defender
+
+
+
+apps,endpoints,identities,data
+defender -cross-domain solution
+
+
+
+email/collaboration,apps,endpoints,identities
+
+
+
+identities
+azure atp -monitor and analyzes user activities
+
+
+
+plan1
+plan2
+
+
+
+endpoint
+
+
+
+microsoft cloud app security
+
+
+
+cloud access security broker
+saas
+
+
+
+admin.microsoft.com
+
+
+
+Security management capabilities of microsoft 365
+microsoft 365 defender portal -known as security center
+microsoft secure score
+
+
+
+Security reports and dashboards
+Reports
+
+
+
+Incident and incident management
+
+
+
+
+endpoint security with microsoft intune
+
+
+
+Intune -mdm and mam
+
+
+
+Module-4
+
+
+
+compliance management capabalities in microsoft
+common compliance needs
+
+
+
+service trust portal
+Trust center
+Microsoft privacy principles - control,transparency,security,strong legal protections,
+no content-based targeting,benefits to you
+Microsoft 365 compliance center - only available to m365 global admin
+Compliance manager -controls,assessments,templates,improvement actions
+Compliance score -your improved actions,microsoft actions
+
+
+
+information protection and governance capabilities in m365
+
+
+
+know your data,protect data,prevent data loss,govern data
+data classification capabilities- trainable classifiers
+
+
+
+Sensitivity labels and policies
+labels-customize,clear text,persistent
+
+
+
+Data loss prevention
+Retention policies and labels
+Records management
+
+
+
+Insider risk capabilities in m365
+
+
+
+insider risk management
+communication compliance
+information barriers
+privileged access management at task level
+customer lockbox
+
+
+
+zero standing access
+privileged identity management at role level
+
+
+
+ediscovery and audit capabilities in m365
+
+
+
+ediscovery and content search
+core and advanced ediscovery workflows
+cure and advanced audits
